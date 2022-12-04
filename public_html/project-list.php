@@ -1,34 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
-    <script>document.documentElement.setAttribute("data-theme", "dark");</script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
-        <header class="navbar">
-            <nav>
-              <main class="container">
-                <center>
-                <p class="toptitle">CODEFORKERS.COM</p>
-                <span>code, fork, merge</span>
-                </center>
-              </main>
-              </nav>
-            
-              <main class="container" style="text-align: center;">
-              <nav aria-label="breadcrumb" style="display:inline-block;">
-                <ul style="width:100%;margin: auto;--primary:#039be5"> 
-                  <li><a href="/">Home</a></li>
-                  <li><a href="#">Developers</a></li>
-                  <li><a href="#">Projects</a></li>
-                </ul>
-              </nav>
-              </main>
-            </header>
-            <hr />
-          <!-- Projects list -->
-          <div class="container">
+<div class="container">
               <div class="items grid">  
                          <div class="project-item">
                           <article class="card">
@@ -126,14 +96,3 @@
 
           </div>
       </div>
-        
-        <footer>
-          <center>
-          <p style="font-size: 12px;">(c) codeforkers.com | Powered by XDA-OT Community</p>
-          </center> 
-        </footer>
-
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </body>
-</html>
