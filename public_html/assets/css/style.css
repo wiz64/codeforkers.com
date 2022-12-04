@@ -1,0 +1,59 @@
+.navbar {
+    max-width: 97%;
+    margin: 0 auto;
+    padding: 5px 0;
+}
+.toptitle {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary);
+    font-family: 'Courier New', Courier, monospace;
+    --primary: #c0ca33;
+    font-weight: 900!important;
+    margin-bottom: 0px;
+    font-family: 'Anonymous Pro', monospace;
+}
+.project-item {
+    max-width: 100%;
+}
+
+.project-label {
+  font-family: 'Courier New', Courier, monospace;
+}
+.blur-btn {
+  /* blurred background */
+  backdrop-filter: blur(4px);
+}
+@media only screen and (max-width: 600px) {
+    .toptitle {
+        font-size: 2rem;
+    }
+    .project-item {
+      max-width: 100%;
+    }
+}
+header.project-label {
+    padding: 16px;
+    padding-top: 48px;
+    margin-bottom: 12px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    background: linear-gradient(90deg, #00000085 0%, #00000085 100%),url("https://cdn.pixabay.com/photo/2022/10/31/12/40/sorrow-7559727_960_720.jpg");
+    background-size: cover;
+    
+}
+.card {
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    margin:12px auto;
+}
+footer.slim-card {
+    padding: 12px;
+    margin-top: 12px;
+}
+.view-btn {
+    padding: 12px 12px;
+}
+.header-label {
+    text-shadow: 0 0 10px #000000;
+}
